@@ -1034,3 +1034,9 @@ nav#filter li {
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+/* <style> */
+.disabled {
+	display: none; /* Hide the disabled code */
+}
+/* </style> */
