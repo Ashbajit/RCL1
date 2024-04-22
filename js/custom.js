@@ -149,3 +149,23 @@ $('document').ready(function () {
 			  $('#filter .current').trigger('click');
 		});
 });
+
+// Form submission
+var form = document.getElementById('contactform')
+
+form.addEventListener('submit', function(event){
+event.preventDefault()
+
+var name = document.getElementById('name').value
+
+console.log(name)
+
+var email = document.getElementById('email').value 
+
+console.log(email)
+
+var comment = document.getElementById('comments').value
+
+console.log(comment)
+
+})
