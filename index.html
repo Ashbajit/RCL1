@@ -1,32 +1,44 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
-</head>
-<body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>Here is an embedded YouTube Short:</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/iqe08wYDSz4" frameborder="0" allowfullscreen></iframe>
-</body>
-</html>
- -->
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Page</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 90%;
+        }
+
         .video-container {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 aspect ratio */
             height: 0;
             overflow: hidden;
             max-width: 100%;
-            background: #000;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .video-container iframe {
@@ -39,10 +51,12 @@
     </style>
 </head>
 <body>
-    <h1>Hey Dad</h1>
-    <p>Here is a small video for you:</p>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/iqe08wYDSz4" frameborder="0" allowfullscreen></iframe>
+    <div class="content">
+        <h1>Welcome to My GitHub Page</h1>
+        <p>Here is an embedded YouTube Short:</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/iqe08wYDSz4" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 </body>
 </html>
